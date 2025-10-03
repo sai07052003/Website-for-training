@@ -38,7 +38,19 @@ export default function EnrollForm() {
     }
 
     try {
+<<<<<<< HEAD
       const res = await fetch("https://website-backend-hlaw.onrender.com/enroll", {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      const res = await fetch(" https://website-backend-hlaw.onrender.com/enroll", {
+=======
+      const res = await fetch("http://localhost:5000/enroll", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      const res = await fetch("http://localhost:5000/enroll", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

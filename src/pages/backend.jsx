@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -24,31 +36,86 @@ const tools = [
   {
     name: "Node.js",
     img: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+<<<<<<< HEAD
     desc: "A JavaScript runtime environment\nthat executes code outside the browser\nand enables server-side development.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A JavaScript runtime environment\nthat executes code outside the browser\nand enables server-side development.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Express.js",
     img: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+<<<<<<< HEAD
     desc: "A minimal and flexible Node.js framework\nused to build web applications\nand RESTful APIs quickly.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A minimal and flexible Node.js framework\nused to build web applications\nand RESTful APIs quickly.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "MongoDB",
     img: "https://webimages.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg",
+<<<<<<< HEAD
     desc: "A NoSQL database\nthat stores data in flexible, JSON-like documents\nfor scalability and performance.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A NoSQL database\nthat stores data in flexible, JSON-like documents\nfor scalability and performance.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "MySQL",
     img: "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
+<<<<<<< HEAD
     desc: "A relational database management system\nused to store and manage structured data\nwith SQL queries.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A relational database management system\nused to store and manage structured data\nwith SQL queries.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "PostgreSQL",
     img: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+<<<<<<< HEAD
     desc: "An advanced open-source relational database\nknown for reliability, robustness,\nand support for complex queries.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An advanced open-source relational database\nknown for reliability, robustness,\nand support for complex queries.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "REST APIs",
     img: "https://cdn-icons-png.flaticon.com/512/906/906334.png",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     desc: "A design architecture for web services\nthat allows communication between clients\nand servers over HTTP.",
   },
   {
@@ -60,16 +127,51 @@ const tools = [
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
     desc: "A version control system\nthat tracks code changes\nand enables collaborative development.",
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+  }, // Working generic API icon
+  { name: "JWT", img: "https://jwt.io/img/pic_logo.svg" },
+  {
+    name: "Git",
+    img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "VS Code",
     img: "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
+<<<<<<< HEAD
     desc: "A lightweight and powerful code editor\nwith support for debugging, extensions,\nand Git integration.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A lightweight and powerful code editor\nwith support for debugging, extensions,\nand Git integration.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "GitHub",
     img: "https://images.assets-landingi.com/uc/9627c60e-9f4a-4520-964e-790548c7c3d0/Font_Awesome_5_brands_github.svg",
+<<<<<<< HEAD
     desc: "A web-based platform for Git repositories\nthat allows version control, collaboration,\nand project management.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A web-based platform for Git repositories\nthat allows version control, collaboration,\nand project management.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
 ];
 
@@ -114,7 +216,19 @@ const faqs = [
 function Backend() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -127,9 +241,23 @@ function Backend() {
     e.preventDefault(); // prevent page reload
     setSubscribeSubmitted(true);
   };
+<<<<<<< HEAD
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const scrollToCertificate = () => {
+    certificateRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Introduction to Backend Development",
@@ -229,7 +357,19 @@ function Backend() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -238,12 +378,30 @@ function Backend() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -311,33 +469,87 @@ function Backend() {
       {/* ================= TOOLS COVERED ================= */}
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
           <span className="text-primary fw-bold">
           Backend
           </span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+          <span className="text-primary fw-bold">Backend Developer</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+          <span className="text-primary fw-bold">Backend Developer</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
         </div>
       </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
       {/* ================= ROADMAP + FORM ================= */}
       <div className="container-fluid py-5">
         <div className="row">
@@ -427,7 +639,19 @@ function Backend() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

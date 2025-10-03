@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -24,31 +36,89 @@ const tools = [
   {
     name: "Jira",
     img: "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg",
+<<<<<<< HEAD
     desc: "A project management tool\nfor tracking issues, bugs,\nand agile development tasks.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A project management tool\nfor tracking issues, bugs,\nand agile development tasks.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Quality Center (HP ALM)",
     img: "https://cdn.worldvectorlogo.com/logos/hp-2.svg",
+<<<<<<< HEAD
     desc: "A test management tool\nfor planning, executing, and\ntracking QA activities.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A test management tool\nfor planning, executing, and\ntracking QA activities.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Postman",
     img: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+<<<<<<< HEAD
     desc: "A tool for testing APIs\nwith requests and responses\nfor backend and integration testing.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A tool for testing APIs\nwith requests and responses\nfor backend and integration testing.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Excel",
     img: "https://cdn.worldvectorlogo.com/logos/microsoft-excel-2013.svg",
+<<<<<<< HEAD
     desc: "A spreadsheet software\nfor data analysis, reporting,\nand test case documentation.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A spreadsheet software\nfor data analysis, reporting,\nand test case documentation.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Selenium",
     img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     desc: "A framework for automating\nweb browser testing\nacross different platforms.",
   },
 ];
 
 
+<<<<<<< HEAD
+=======
+=======
+  },
+];
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+  },
+];
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 // ---------------- FAQ ----------------
 const faqs = [
   {
@@ -91,7 +161,17 @@ const faqs = [
 function Testing() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
@@ -105,9 +185,21 @@ function Testing() {
     setSubscribeSubmitted(true);
   };
 
+<<<<<<< HEAD
    const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   const scrollToCertificate = () => {
+    certificateRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Introduction to Testing",
@@ -202,7 +294,19 @@ function Testing() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -211,12 +315,30 @@ function Testing() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -260,7 +382,19 @@ function Testing() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -281,6 +415,11 @@ function Testing() {
       </div>
 
       {/* ================= TOOLS COVERED ================= */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -289,29 +428,82 @@ function Testing() {
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+      <div className="container my-5">
+        <h2 className="tools-heading text-center mb-5">
+          <span className="text-primary fw-bold">Manual Testing</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
         </div>
       </div>
+<<<<<<< HEAD
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
       {/* ================= ROADMAP + FORM ================= */}
       <div className="container-fluid py-5">
         <div className="row">
@@ -401,8 +593,21 @@ function Testing() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section 
 ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section 
+ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

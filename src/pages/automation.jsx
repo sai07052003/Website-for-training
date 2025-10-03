@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -24,6 +36,11 @@ const tools = [
   {
     name: "Selenium",
     img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     desc: "An open-source tool\nfor automating web browsers\nand testing web applications.",
   },
   {
@@ -35,31 +52,96 @@ const tools = [
     name: "JUnit",
     img: "https://upload.wikimedia.org/wikipedia/commons/5/59/JUnit_5_Banner.png",
     desc: "A popular Java testing framework\nused for unit testing\nand test-driven development (TDD).",
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+  },
+  { name: "Playwright", img: "https://playwright.dev/img/playwright-logo.svg" },
+  {
+    name: "JUnit",
+    img: "https://upload.wikimedia.org/wikipedia/commons/5/59/JUnit_5_Banner.png",
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Robot Framework",
     img: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Robot-framework-logo.png",
+<<<<<<< HEAD
     desc: "An open-source automation framework\nfor acceptance testing\nand robotic process automation (RPA).",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An open-source automation framework\nfor acceptance testing\nand robotic process automation (RPA).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Maven",
     img: "https://maven.apache.org/images/logos/build-by-maven-black.png",
+<<<<<<< HEAD
     desc: "A build automation tool\nmainly for Java projects,\nused for dependency management.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A build automation tool\nmainly for Java projects,\nused for dependency management.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Jenkins",
     img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg",
+<<<<<<< HEAD
     desc: "An open-source automation server\nused for continuous integration (CI)\nand continuous delivery (CD).",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An open-source automation server\nused for continuous integration (CI)\nand continuous delivery (CD).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Postman",
     img: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
+<<<<<<< HEAD
     desc: "A collaboration platform\nfor API development, testing,\nand documentation.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A collaboration platform\nfor API development, testing,\nand documentation.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Docker",
     img: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
+<<<<<<< HEAD
     desc: "A platform for building,\npackaging, and running applications\ninside lightweight containers.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A platform for building,\npackaging, and running applications\ninside lightweight containers.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
 ];
 
@@ -105,7 +187,19 @@ const faqs = [
 function Automation() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -119,11 +213,23 @@ function Automation() {
     setSubscribeSubmitted(true);
   };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Testing Fundamentals",
@@ -215,7 +321,19 @@ function Automation() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -224,6 +342,11 @@ function Automation() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -231,6 +354,19 @@ function Automation() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -274,7 +410,19 @@ function Automation() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -295,6 +443,11 @@ function Automation() {
       </div>
 
       {/* ================= TOOLS COVERED ================= */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
      <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -303,21 +456,62 @@ function Automation() {
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+      <div className="container my-5">
+        <h2 className="tools-heading text-center mb-5">
+          <span className="text-primary fw-bold">Automation</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
@@ -412,7 +606,19 @@ function Automation() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

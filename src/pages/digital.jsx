@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState ,useRef} from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState ,useRef} from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -25,52 +37,152 @@ const tools = [
   {
     name: "Google Analytics",
     img: "https://www.vectorlogo.zone/logos/google_analytics/google_analytics-icon.svg",
+<<<<<<< HEAD
     desc: "A web analytics tool\nused to track website traffic\nand user behavior.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A web analytics tool\nused to track website traffic\nand user behavior.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Google Ads",
     img: "https://www.vectorlogo.zone/logos/google_ads/google_ads-icon.svg",
+<<<<<<< HEAD
     desc: "An online advertising platform\nfor creating and managing\nsearch and display ads.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An online advertising platform\nfor creating and managing\nsearch and display ads.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Facebook Ads",
     img: "https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg",
+<<<<<<< HEAD
     desc: "A social media advertising platform\nused to target audiences\non Facebook.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A social media advertising platform\nused to target audiences\non Facebook.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Instagram",
     img: "https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg",
+<<<<<<< HEAD
     desc: "A social media platform\nfor sharing photos, videos,\nand engaging with audiences.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A social media platform\nfor sharing photos, videos,\nand engaging with audiences.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "LinkedIn Ads",
     img: "https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg",
+<<<<<<< HEAD
     desc: "A professional network advertising tool\nused to target audiences\non LinkedIn.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A professional network advertising tool\nused to target audiences\non LinkedIn.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Twitter (X) Ads",
     img: "https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg",
+<<<<<<< HEAD
     desc: "A platform for promoting content\nand reaching audiences\nvia paid campaigns on X.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A platform for promoting content\nand reaching audiences\nvia paid campaigns on X.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Canva",
     img: "https://www.vectorlogo.zone/logos/canva/canva-icon.svg",
+<<<<<<< HEAD
     desc: "A graphic design tool\nfor creating visuals,\nsocial media posts, and marketing content.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A graphic design tool\nfor creating visuals,\nsocial media posts, and marketing content.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Mailchimp",
     img: "https://www.vectorlogo.zone/logos/mailchimp/mailchimp-icon.svg",
+<<<<<<< HEAD
     desc: "An email marketing platform\nfor designing campaigns,\nsending newsletters, and tracking results.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An email marketing platform\nfor designing campaigns,\nsending newsletters, and tracking results.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Hootsuite",
     img: "https://www.vectorlogo.zone/logos/hootsuite/hootsuite-icon.svg",
+<<<<<<< HEAD
     desc: "A social media management tool\nfor scheduling posts,\nmonitoring engagement, and analytics.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A social media management tool\nfor scheduling posts,\nmonitoring engagement, and analytics.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "WordPress",
     img: "https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg",
+<<<<<<< HEAD
     desc: "A content management system (CMS)\nfor building websites, blogs,\nand managing online content.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A content management system (CMS)\nfor building websites, blogs,\nand managing online content.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
 ];
 
@@ -116,7 +228,19 @@ const faqs = [
 function Digital() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -128,9 +252,21 @@ function Digital() {
     e.preventDefault(); // prevent page reload
     setSubscribeSubmitted(true);
   };
+<<<<<<< HEAD
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const scrollToCertificate = () => {
+    certificateRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 
   const steps = [
     {
@@ -226,7 +362,19 @@ function Digital() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -235,6 +383,11 @@ function Digital() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -242,6 +395,19 @@ function Digital() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -285,7 +451,19 @@ function Digital() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -306,6 +484,11 @@ function Digital() {
       </div>
 
       {/* ================= TOOLS COVERED ================= */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
      <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -314,21 +497,62 @@ function Digital() {
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+      <div className="container my-5">
+        <h2 className="tools-heading text-center mb-5">
+          <span className="text-primary fw-bold">Digital Marketing</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
@@ -423,8 +647,21 @@ function Digital() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section 
 ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section 
+ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

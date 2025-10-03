@@ -42,7 +42,19 @@ const Homefooter = () => {
             <ul className="contact-info bg-dark">
               <li>
                 <FaMapMarkerAlt />
+<<<<<<< HEAD
                 <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundelpet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundelpet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
+=======
+                <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundlepet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundlepet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
               <li>
                 <FaMapMarkerAlt />

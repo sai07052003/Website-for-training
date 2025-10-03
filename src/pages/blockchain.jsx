@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState ,useRef} from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState ,useRef} from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -24,35 +36,101 @@ const tools = [
   {
     name: "Solidity",
     img: "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
+<<<<<<< HEAD
     desc: "A programming language for writing\nsmart contracts on Ethereum\nand other blockchain platforms.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A programming language for writing\nsmart contracts on Ethereum\nand other blockchain platforms.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Ethereum",
     img: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg",
+<<<<<<< HEAD
     desc: "A decentralized blockchain platform\nthat enables smart contracts\nand decentralized applications (dApps).",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A decentralized blockchain platform\nthat enables smart contracts\nand decentralized applications (dApps).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Truffle",
     img: "https://avatars.githubusercontent.com/u/22205156?s=200&v=4",
+<<<<<<< HEAD
     desc: "A development framework for Ethereum\nthat helps compile, deploy, and test\nsmart contracts efficiently.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A development framework for Ethereum\nthat helps compile, deploy, and test\nsmart contracts efficiently.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Ganache",
     img: "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png",
+<<<<<<< HEAD
     desc: "A personal blockchain for Ethereum\nused to test smart contracts\nlocally before deploying to the mainnet.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A personal blockchain for Ethereum\nused to test smart contracts\nlocally before deploying to the mainnet.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Metamask",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg",
+<<<<<<< HEAD
     desc: "A crypto wallet and gateway\nthat allows users to manage accounts\nand interact with Ethereum dApps.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A crypto wallet and gateway\nthat allows users to manage accounts\nand interact with Ethereum dApps.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     desc: "A version control system\nthat tracks changes in code\nand enables collaborative development.",
   },
 ];
 
+<<<<<<< HEAD
+=======
+=======
+  },
+];
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+  },
+];
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 // ---------------- FAQ ----------------
 const faqs = [
   {
@@ -95,7 +173,19 @@ const faqs = [
 function BlockChain() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -109,11 +199,23 @@ function BlockChain() {
     setSubscribeSubmitted(true);
   };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
    const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Blockchain Fundamentals",
@@ -208,7 +310,19 @@ function BlockChain() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -217,12 +331,30 @@ function BlockChain() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -266,7 +398,19 @@ function BlockChain() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -289,33 +433,87 @@ function BlockChain() {
       {/* ================= TOOLS COVERED ================= */}
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
           <span className="text-primary fw-bold">
          Blockchain Technology
           </span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+          <span className="text-primary fw-bold">Blockchain Technology</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+          <span className="text-primary fw-bold">Blockchain Technology</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
         </div>
       </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
       {/* ================= ROADMAP + FORM ================= */}
       <div className="container-fluid py-5">
         <div className="row">
@@ -405,7 +603,19 @@ function BlockChain() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

@@ -47,6 +47,17 @@ const FeedbackSection = () => {
     const feedbackEmail = e.target.feedbackEmail.value.trim();
     const feedbackText = e.target.feedbackText.value.trim();
     const suggestions = e.target.suggestions.value.trim();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const anonymous = e.target.anonymous.checked;
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+    const anonymous = e.target.anonymous.checked;
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 
     if (
       !feedbackName ||
@@ -76,7 +87,19 @@ const FeedbackSection = () => {
     };
 
     try {
+<<<<<<< HEAD
       const res = await axios.post("https://website-backend-hlaw.onrender.com/feedback", payload);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      const res = await axios.post(" https://website-backend-hlaw.onrender.com/feedback", payload);
+=======
+      const res = await axios.post("http://localhost:5000/feedback", payload);
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      const res = await axios.post("http://localhost:5000/feedback", payload);
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
       alert(res.data.message);
 
       setFormSubmitted(true);

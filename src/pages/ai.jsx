@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -25,52 +37,152 @@ const tools = [
   {
     name: "Python",
     img: "https://cdn.iconscout.com/icon/free/png-512/python-2-226051.png",
+<<<<<<< HEAD
     desc: "A versatile programming language\nwidely used for web development,\ndata science, AI, and automation.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A versatile programming language\nwidely used for web development,\ndata science, AI, and automation.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "HTML",
     img: "https://images.assets-landingi.com/uc/c3aa8c83-aa59-4147-ad10-63ce234b2e3c/HTML5_logo_and_wordmark.svg",
+<<<<<<< HEAD
     desc: "The standard markup language\nfor creating the structure of web pages.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "The standard markup language\nfor creating the structure of web pages.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "CSS",
     img: "https://images.assets-landingi.com/uc/51803206-f3bf-420e-8507-911635943599/CSS3_logo_and_wordmark.svg",
+<<<<<<< HEAD
     desc: "A style sheet language\nused to design and layout web pages\nwith colors, fonts, and responsiveness.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A style sheet language\nused to design and layout web pages\nwith colors, fonts, and responsiveness.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "JavaScript",
     img: "https://images.assets-landingi.com/uc/1a0842ed-b090-46dc-af8a-def1fd4f8927/javascript1.svg",
+<<<<<<< HEAD
     desc: "A programming language\nthat brings interactivity\nand dynamic features to websites.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A programming language\nthat brings interactivity\nand dynamic features to websites.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "React",
     img: "https://images.assets-landingi.com/uc/9e03cefd-4c19-4c84-9f35-e8c8807ab66b/Reacticon.svg",
+<<<<<<< HEAD
     desc: "A JavaScript library\nfor building fast, interactive,\nand component-based user interfaces.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A JavaScript library\nfor building fast, interactive,\nand component-based user interfaces.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "TensorFlow",
     img: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg",
+<<<<<<< HEAD
     desc: "An open-source library\nfor machine learning\nand deep learning model development.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An open-source library\nfor machine learning\nand deep learning model development.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "PyTorch",
     img: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg",
+<<<<<<< HEAD
     desc: "A deep learning framework\nthat provides flexibility and speed\nfor research and production.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A deep learning framework\nthat provides flexibility and speed\nfor research and production.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Scikit-learn",
     img: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+<<<<<<< HEAD
     desc: "A Python library\noffering simple and efficient tools\nfor machine learning and data analysis.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A Python library\noffering simple and efficient tools\nfor machine learning and data analysis.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Pandas",
     img: "https://pandas.pydata.org/static/img/pandas_mark.svg",
+<<<<<<< HEAD
     desc: "A powerful Python library\nfor data manipulation\nand analysis using DataFrames.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A powerful Python library\nfor data manipulation\nand analysis using DataFrames.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
+<<<<<<< HEAD
     desc: "A version control system\nthat tracks changes in code\nand enables team collaboration.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A version control system\nthat tracks changes in code\nand enables team collaboration.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
 ];
 
@@ -116,7 +228,17 @@ const faqs = [
 function Ai() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
    const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   const certificateRef = useRef(null); 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
@@ -131,10 +253,22 @@ function Ai() {
     setSubscribeSubmitted(true);
   };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Python Fundamentals",
@@ -230,7 +364,19 @@ function Ai() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -239,12 +385,30 @@ function Ai() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -289,7 +453,19 @@ function Ai() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -310,6 +486,11 @@ function Ai() {
       </div>
 
       {/* ================= TOOLS COVERED ================= */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
        <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -318,21 +499,62 @@ function Ai() {
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+      <div className="container my-5">
+        <h2 className="tools-heading text-center mb-5">
+          <span className="text-primary fw-bold">Artificial Intelligence</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
@@ -427,7 +649,19 @@ function Ai() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section  ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section  ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

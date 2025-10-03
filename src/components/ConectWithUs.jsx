@@ -14,7 +14,19 @@ function ConnectWithUs() {
     e.preventDefault();
 
     try {
+<<<<<<< HEAD
       const response = await fetch("https://website-backend-hlaw.onrender.com/api/contact", {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      const response = await fetch(" https://website-backend-hlaw.onrender.com/api/contact", {
+=======
+      const response = await fetch("http://localhost:5000/api/contact", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      const response = await fetch("http://localhost:5000/api/contact", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

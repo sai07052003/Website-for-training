@@ -147,7 +147,19 @@ function JobApplication() {
     });
 
     try {
+<<<<<<< HEAD
       const res = await fetch("https://website-backend-hlaw.onrender.com/api/careers/apply", {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      const res = await fetch(" https://website-backend-hlaw.onrender.com/api/careers/apply", {
+=======
+      const res = await fetch("http://localhost:5000/api/careers/apply", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      const res = await fetch("http://localhost:5000/api/careers/apply", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         method: "POST",
         body: data,
       });

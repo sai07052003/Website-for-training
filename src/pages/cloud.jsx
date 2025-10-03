@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -24,46 +36,131 @@ const tools = [
   {
     name: "AWS",
     img: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+<<<<<<< HEAD
     desc: "A cloud computing platform\noffering computing power, storage,\nand a variety of services globally.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A cloud computing platform\noffering computing power, storage,\nand a variety of services globally.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Microsoft Azure",
     img: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
+<<<<<<< HEAD
     desc: "A cloud service platform\nthat provides solutions for building,\ndeploying, and managing applications.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A cloud service platform\nthat provides solutions for building,\ndeploying, and managing applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Google Cloud",
     img: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
+<<<<<<< HEAD
     desc: "A cloud platform by Google\noffering compute, storage, and AI services\nfor scalable applications.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A cloud platform by Google\noffering compute, storage, and AI services\nfor scalable applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Linux",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+<<<<<<< HEAD
     desc: "An open-source operating system\nused for servers, development,\nand cloud infrastructure.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An open-source operating system\nused for servers, development,\nand cloud infrastructure.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Docker",
     img: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+<<<<<<< HEAD
     desc: "A platform for containerizing applications\nso they run consistently across\ndifferent environments.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A platform for containerizing applications\nso they run consistently across\ndifferent environments.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Kubernetes",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+<<<<<<< HEAD
     desc: "An open-source container orchestration tool\nthat automates deployment, scaling,\nand management of containerized apps.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An open-source container orchestration tool\nthat automates deployment, scaling,\nand management of containerized apps.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Terraform",
     img: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
+<<<<<<< HEAD
     desc: "An infrastructure-as-code tool\nfor building, changing, and versioning\ncloud and on-prem resources.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An infrastructure-as-code tool\nfor building, changing, and versioning\ncloud and on-prem resources.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Jenkins",
     img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg",
+<<<<<<< HEAD
     desc: "An automation server\nused for continuous integration (CI)\nand continuous delivery (CD).",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An automation server\nused for continuous integration (CI)\nand continuous delivery (CD).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     desc: "A version control system\nthat tracks code changes\nand enables collaborative development.",
   },
   {
@@ -71,6 +168,17 @@ const tools = [
     img: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
     desc: "A relational database management system\nused to store and manage structured data\nwith SQL queries.",
   },
+<<<<<<< HEAD
+=======
+=======
+  },
+  { name: "MySQL", img: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+  },
+  { name: "MySQL", img: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 ];
 
 // ---------------- FAQ ----------------
@@ -115,7 +223,19 @@ const faqs = [
 function Cloud() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -129,11 +249,23 @@ function Cloud() {
     setSubscribeSubmitted(true);
   };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Cloud Computing Fundamentals",
@@ -228,7 +360,19 @@ function Cloud() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -237,6 +381,11 @@ function Cloud() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -244,6 +393,19 @@ function Cloud() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -287,7 +449,19 @@ function Cloud() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -308,6 +482,11 @@ function Cloud() {
       </div>
 
       {/* ================= TOOLS COVERED ================= */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
      <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -316,27 +495,78 @@ function Cloud() {
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+      <div className="container my-5">
+        <h2 className="tools-heading text-center mb-5">
+          <span className="text-primary fw-bold">Cloud Computing</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
         </div>
       </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
       {/* ================= ROADMAP + FORM ================= */}
       <div className="container-fluid py-5">
         <div className="row">
@@ -426,8 +656,21 @@ function Cloud() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section 
 ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section 
+ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">

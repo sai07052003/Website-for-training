@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 import {
   FaCheckCircle,
   FaStar,
@@ -24,56 +36,164 @@ const tools = [
   {
     name: "Python",
     img: "https://cdn.iconscout.com/icon/free/png-512/free-python-3521655-2945099.png",
+<<<<<<< HEAD
     desc: "A versatile programming language\nused for data analysis, AI,\nand scientific computing.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A versatile programming language\nused for data analysis, AI,\nand scientific computing.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "R",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg",
+<<<<<<< HEAD
     desc: "A statistical programming language\nused for data analysis, visualization,\nand statistical modeling.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A statistical programming language\nused for data analysis, visualization,\nand statistical modeling.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "SQL",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+<<<<<<< HEAD
     desc: "A language for managing and querying\nstructured data in relational databases\nfor analytics and reporting.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A language for managing and querying\nstructured data in relational databases\nfor analytics and reporting.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Pandas",
     img: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pandas.svg",
+<<<<<<< HEAD
     desc: "A Python library for data manipulation\nand analysis using DataFrames\nand time series functionality.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A Python library for data manipulation\nand analysis using DataFrames\nand time series functionality.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "NumPy",
     img: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/numpy.svg",
+<<<<<<< HEAD
     desc: "A Python library for numerical computing\nand handling arrays,\nmatrix operations efficiently.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A Python library for numerical computing\nand handling arrays,\nmatrix operations efficiently.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Matplotlib",
     img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg",
+<<<<<<< HEAD
     desc: "A Python plotting library\nused for creating static, interactive,\nand animated visualizations.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A Python plotting library\nused for creating static, interactive,\nand animated visualizations.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Scikit-Learn",
     img: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/scikitlearn.svg",
+<<<<<<< HEAD
     desc: "A Python library for machine learning\nproviding tools for classification,\nregression, and clustering.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A Python library for machine learning\nproviding tools for classification,\nregression, and clustering.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "TensorFlow",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
+<<<<<<< HEAD
     desc: "An open-source library\nfor building and training\nmachine learning and deep learning models.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "An open-source library\nfor building and training\nmachine learning and deep learning models.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "PyTorch",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+<<<<<<< HEAD
     desc: "A deep learning framework\nfor building neural networks\nand performing research or production AI tasks.",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    desc: "A deep learning framework\nfor building neural networks\nand performing research or production AI tasks.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   },
   {
     name: "Tableau",
     img: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
     desc: "A data visualization tool\nused to create interactive dashboards\nand share insights effectively.",
   },
 ];
 
 
+<<<<<<< HEAD
+=======
+=======
+  },
+];
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+  },
+];
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 // ---------------- FAQ ----------------
 const faqs = [
   {
@@ -115,7 +235,17 @@ const faqs = [
 function DataScience() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ const certificateRef = useRef(null); 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 
   const toggleFaq = (index) => setOpenIndex(openIndex === index ? null : index);
   const handleSubmit = (e) => {
@@ -129,9 +259,21 @@ function DataScience() {
     e.preventDefault(); // prevent page reload
     setSubscribeSubmitted(true);
   };
+<<<<<<< HEAD
    const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   const scrollToCertificate = () => {
+    certificateRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
   const steps = [
     {
       title: "Module 1: Introduction to Data Science",
@@ -224,7 +366,19 @@ function DataScience() {
                 experience in Software Training & Placements
               </li>
               <li>
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </li>
             </ul>
             <div className="d-flex gap-3 mt-4">
@@ -233,12 +387,30 @@ function DataScience() {
                   Enroll Now <FaArrowRight className="ms-2" />
                 </button>
               </Link>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
 <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+<<<<<<< HEAD
+=======
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           {/* Right */}
@@ -283,7 +455,19 @@ function DataScience() {
             <div className="stat-card purple">
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
             </div>
           </div>
           <div className="col-md-3 col-6 mb-4">
@@ -306,33 +490,87 @@ function DataScience() {
       {/* ================= TOOLS COVERED ================= */}
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
           <span className="text-primary fw-bold">
         Data Science
           </span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
+<<<<<<< HEAD
+=======
+=======
+          <span className="text-primary fw-bold">Data Science</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+          <span className="text-primary fw-bold">Data Science</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+<<<<<<< HEAD
+=======
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
               </div>
             </div>
           ))}
         </div>
       </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
       {/* ================= ROADMAP + FORM ================= */}
       <div className="container-fluid py-5">
         <div className="row">
@@ -422,7 +660,19 @@ function DataScience() {
         </div>
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
+<<<<<<< HEAD
       <section ref={certificateRef} className="certificate-section container py-5">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <section ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+>>>>>>> 9be448617e90cac0c160a0e31a676743e5cc46c2
         <div className="row align-items-center justify-content-center">
           {/* Left Side - Certificate Card */}
           <div className="col-md-6 mb-4">
