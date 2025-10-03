@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -29,7 +33,10 @@ const tools = [
     name: "Jira",
     img: "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A project management tool\nfor tracking issues, bugs,\nand agile development tasks.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -37,7 +44,10 @@ const tools = [
     name: "Quality Center (HP ALM)",
     img: "https://cdn.worldvectorlogo.com/logos/hp-2.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A test management tool\nfor planning, executing, and\ntracking QA activities.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -45,7 +55,10 @@ const tools = [
     name: "Postman",
     img: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A tool for testing APIs\nwith requests and responses\nfor backend and integration testing.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -53,7 +66,10 @@ const tools = [
     name: "Excel",
     img: "https://cdn.worldvectorlogo.com/logos/microsoft-excel-2013.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A spreadsheet software\nfor data analysis, reporting,\nand test case documentation.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -61,11 +77,17 @@ const tools = [
     name: "Selenium",
     img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A framework for automating\nweb browser testing\nacross different platforms.",
   },
 ];
 
 
+=======
+  },
+];
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
   },
 ];
@@ -114,7 +136,10 @@ function Testing() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 
@@ -131,9 +156,12 @@ function Testing() {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   const steps = [
@@ -231,7 +259,11 @@ function Testing() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -244,12 +276,18 @@ function Testing() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -299,7 +337,11 @@ function Testing() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -324,6 +366,7 @@ function Testing() {
 
       {/* ================= TOOLS COVERED ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -333,24 +376,33 @@ function Testing() {
         </h2>
 
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">Manual Testing</span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
@@ -362,15 +414,22 @@ function Testing() {
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
               </div>
             </div>
           ))}
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       {/* ================= ROADMAP + FORM ================= */}
@@ -463,8 +522,12 @@ function Testing() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section 
 ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

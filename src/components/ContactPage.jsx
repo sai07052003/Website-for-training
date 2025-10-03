@@ -60,7 +60,11 @@ const ContactPage = () => {
 
     try {
 <<<<<<< HEAD
+<<<<<<< HEAD
       const response = await fetch(" https://website-backend-hlaw.onrender.com/api/contact-form", {
+=======
+      const response = await fetch("http://localhost:5000/api/contact-form", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       const response = await fetch("http://localhost:5000/api/contact-form", {
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

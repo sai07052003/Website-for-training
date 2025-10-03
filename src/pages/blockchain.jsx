@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState ,useRef} from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -29,7 +33,10 @@ const tools = [
     name: "Solidity",
     img: "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A programming language for writing\nsmart contracts on Ethereum\nand other blockchain platforms.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -37,7 +44,10 @@ const tools = [
     name: "Ethereum",
     img: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A decentralized blockchain platform\nthat enables smart contracts\nand decentralized applications (dApps).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -45,7 +55,10 @@ const tools = [
     name: "Truffle",
     img: "https://avatars.githubusercontent.com/u/22205156?s=200&v=4",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A development framework for Ethereum\nthat helps compile, deploy, and test\nsmart contracts efficiently.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -53,7 +66,10 @@ const tools = [
     name: "Ganache",
     img: "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A personal blockchain for Ethereum\nused to test smart contracts\nlocally before deploying to the mainnet.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -61,7 +77,10 @@ const tools = [
     name: "Metamask",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A crypto wallet and gateway\nthat allows users to manage accounts\nand interact with Ethereum dApps.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -69,10 +88,15 @@ const tools = [
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A version control system\nthat tracks changes in code\nand enables collaborative development.",
   },
 ];
 
+=======
+  },
+];
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
   },
 ];
@@ -120,7 +144,11 @@ function BlockChain() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -138,11 +166,14 @@ function BlockChain() {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   const steps = [
@@ -240,7 +271,11 @@ function BlockChain() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -253,12 +288,18 @@ function BlockChain() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -308,7 +349,11 @@ function BlockChain() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -335,6 +380,7 @@ function BlockChain() {
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <span className="text-primary fw-bold">
          Blockchain Technology
           </span>{" "}
@@ -346,18 +392,27 @@ function BlockChain() {
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+          <span className="text-primary fw-bold">Blockchain Technology</span>{" "}
+          <span className="fw-semibold">Tools Covered</span>
+        </h2>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
@@ -369,13 +424,20 @@ function BlockChain() {
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
               </div>
             </div>
           ))}
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       {/* ================= ROADMAP + FORM ================= */}
@@ -468,7 +530,11 @@ function BlockChain() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

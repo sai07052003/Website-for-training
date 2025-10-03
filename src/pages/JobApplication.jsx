@@ -148,7 +148,11 @@ function JobApplication() {
 
     try {
 <<<<<<< HEAD
+<<<<<<< HEAD
       const res = await fetch(" https://website-backend-hlaw.onrender.com/api/careers/apply", {
+=======
+      const res = await fetch("http://localhost:5000/api/careers/apply", {
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       const res = await fetch("http://localhost:5000/api/careers/apply", {
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

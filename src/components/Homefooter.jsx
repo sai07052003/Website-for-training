@@ -43,7 +43,11 @@ const Homefooter = () => {
               <li>
                 <FaMapMarkerAlt />
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundelpet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
+=======
+                <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundlepet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <span><span className='text-danger'>Registered Address:</span><br/>33-6-73, Arundlepet, 19/3, Opp.Ravindranath Tagore Statue, Guntur, A.P - 522002</span>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

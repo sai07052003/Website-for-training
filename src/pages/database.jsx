@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState ,useRef} from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -29,7 +33,10 @@ const tools = [
     name: "MySQL",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A relational database system\nused for storing structured data\nand supporting SQL queries.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -37,7 +44,10 @@ const tools = [
     name: "PostgreSQL",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An advanced open-source relational database\nknown for reliability, performance,\nand support for complex queries.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -45,7 +55,10 @@ const tools = [
     name: "Oracle DB",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A commercial relational database\nused for enterprise-level applications\nwith strong security features.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -53,7 +66,10 @@ const tools = [
     name: "MongoDB",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A NoSQL database\nthat stores data in flexible, JSON-like documents\nfor scalability and performance.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -61,7 +77,10 @@ const tools = [
     name: "SQL Server",
     img: "https://img.icons8.com/color/512/microsoft-sql-server.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A relational database system\nby Microsoft\nused in enterprise applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -69,13 +88,17 @@ const tools = [
     name: "Redis",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An in-memory key-value store\nused for caching, real-time analytics,\nand high-performance applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   {
     name: "Cassandra",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cassandra/cassandra-original.svg",
+<<<<<<< HEAD
 <<<<<<< HEAD
     desc: "A distributed NoSQL database\ndesigned for handling large-scale data\nacross multiple servers.",
   },
@@ -89,22 +112,33 @@ const tools = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
     desc: "A lightweight, file-based database\nused in mobile apps,\nembedded systems, and small projects.",
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   { name: "DB2", img: "https://img.icons8.com/color/512/ibm.png" },
   {
     name: "SQLite",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   {
     name: "Elasticsearch",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A search and analytics engine\nused for full-text search,\nlog analysis, and real-time data queries.",
   },
 ];
 
 
+=======
+  },
+];
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
   },
 ];
@@ -153,7 +187,10 @@ function DataBase() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 
@@ -170,12 +207,15 @@ function DataBase() {
     setSubscribeSubmitted(true);
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
   
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   const steps = [
@@ -273,7 +313,11 @@ function DataBase() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -286,6 +330,7 @@ function DataBase() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
               
 <button
                   className="btn btn-primary fw-bold"
@@ -293,6 +338,11 @@ function DataBase() {
                 >
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -343,7 +393,11 @@ function DataBase() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -368,6 +422,7 @@ function DataBase() {
 
       {/* ================= TOOLS COVERED ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
        <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -377,18 +432,26 @@ function DataBase() {
         </h2>
 
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">Database Administrator</span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
@@ -396,12 +459,17 @@ function DataBase() {
                   alt={tool.name}
                   className="tool-logo mb-3"
 <<<<<<< HEAD
+<<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
@@ -501,7 +569,11 @@ function DataBase() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section  ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -29,7 +33,10 @@ const tools = [
     name: "AWS",
     img: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A cloud computing platform\noffering computing power, storage,\nand a variety of services globally.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -37,7 +44,10 @@ const tools = [
     name: "Microsoft Azure",
     img: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A cloud service platform\nthat provides solutions for building,\ndeploying, and managing applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -45,7 +55,10 @@ const tools = [
     name: "Google Cloud",
     img: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A cloud platform by Google\noffering compute, storage, and AI services\nfor scalable applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -53,7 +66,10 @@ const tools = [
     name: "Linux",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An open-source operating system\nused for servers, development,\nand cloud infrastructure.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -61,7 +77,10 @@ const tools = [
     name: "Docker",
     img: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A platform for containerizing applications\nso they run consistently across\ndifferent environments.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -69,7 +88,10 @@ const tools = [
     name: "Kubernetes",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An open-source container orchestration tool\nthat automates deployment, scaling,\nand management of containerized apps.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -77,7 +99,10 @@ const tools = [
     name: "Terraform",
     img: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An infrastructure-as-code tool\nfor building, changing, and versioning\ncloud and on-prem resources.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -85,13 +110,17 @@ const tools = [
     name: "Jenkins",
     img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An automation server\nused for continuous integration (CI)\nand continuous delivery (CD).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   {
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
+<<<<<<< HEAD
 <<<<<<< HEAD
     desc: "A version control system\nthat tracks code changes\nand enables collaborative development.",
   },
@@ -100,6 +129,10 @@ const tools = [
     img: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
     desc: "A relational database management system\nused to store and manage structured data\nwith SQL queries.",
   },
+=======
+  },
+  { name: "MySQL", img: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
   },
   { name: "MySQL", img: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
@@ -149,7 +182,11 @@ function Cloud() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -167,11 +204,14 @@ function Cloud() {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   const steps = [
@@ -269,7 +309,11 @@ function Cloud() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -282,6 +326,7 @@ function Cloud() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -289,6 +334,11 @@ function Cloud() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -338,7 +388,11 @@ function Cloud() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -363,6 +417,7 @@ function Cloud() {
 
       {/* ================= TOOLS COVERED ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
      <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -372,24 +427,33 @@ function Cloud() {
         </h2>
 
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">Cloud Computing</span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
@@ -401,13 +465,20 @@ function Cloud() {
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
               </div>
             </div>
           ))}
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       {/* ================= ROADMAP + FORM ================= */}
@@ -500,8 +571,12 @@ function Cloud() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section 
 ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

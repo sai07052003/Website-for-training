@@ -270,7 +270,11 @@ function Carouselboxes() {
         name: "Business Intelligence",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-yrYNle4ylVTmScl44OLO7MtF3RrGcanrw&s",
 <<<<<<< HEAD
+<<<<<<< HEAD
         link: "/courses/business-intelligence"
+=======
+        link: "/courses/bussiness-intelligence"
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
         link: "/courses/bussiness-intelligence"
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -279,7 +283,11 @@ function Carouselboxes() {
         name: "Business Analyst",
         img: "https://cdn-icons-png.flaticon.com/512/942/942748.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
         link: "/courses/business-analyst"
+=======
+        link: "/courses/bussiness-analyst"
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
         link: "/courses/bussiness-analyst"
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

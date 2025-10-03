@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState ,useRef} from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -29,7 +33,10 @@ const tools = [
     name: "Java",
     img: "https://cdn.iconscout.com/icon/free/png-512/free-java-60-1174953.png?f=webp&w=256",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A versatile programming language\nused for building applications,\nweb services, and backend systems.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -37,7 +44,10 @@ const tools = [
     name: "HTML",
     img: "https://images.assets-landingi.com/uc/c3aa8c83-aa59-4147-ad10-63ce234b2e3c/HTML5_logo_and_wordmark.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A markup language for structuring\nweb content and creating\ninteractive web pages.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -45,7 +55,10 @@ const tools = [
     name: "CSS",
     img: "https://images.assets-landingi.com/uc/51803206-f3bf-420e-8507-911635943599/CSS3_logo_and_wordmark.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A style sheet language\nfor designing and styling\nweb pages with colors and layouts.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -53,7 +66,10 @@ const tools = [
     name: "JavaScript",
     img: "https://images.assets-landingi.com/uc/1a0842ed-b090-46dc-af8a-def1fd4f8927/javascript1.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A scripting language that adds\ninteractivity and dynamic behavior\nto websites and web applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -61,13 +77,17 @@ const tools = [
     name: "React",
     img: "https://images.assets-landingi.com/uc/9e03cefd-4c19-4c84-9f35-e8c8807ab66b/Reacticon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A JavaScript library\nfor building interactive user interfaces\nand single-page applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   {
     name: "Spring Boot",
     img: "https://cdn.iconscout.com/icon/free/png-512/free-spring-16-283031.png?f=webp&w=256",
+<<<<<<< HEAD
 <<<<<<< HEAD
     desc: "A Java-based framework\nfor building production-ready\nbackend applications quickly.",
   },
@@ -86,22 +106,32 @@ const tools = [
     img: "https://maven.apache.org/images/maven-logo-black-on-white.png",
     desc: "A build automation tool\nfor managing project dependencies,\nbuilds, and documentation.",
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   { name: "Hibernate", img: "https://hibernate.org/images/hibernate-logo.svg" },
   { name: "MySQL", img: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
   {
     name: "Maven",
     img: "https://maven.apache.org/images/maven-logo-black-on-white.png",
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
   {
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A version control system\nthat tracks code changes\nand enables collaborative development.",
   },
 ];
 
+=======
+  },
+];
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
   },
 ];
@@ -149,7 +179,11 @@ function Java() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -165,9 +199,13 @@ function Java() {
     setSubscribeSubmitted(true);
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -267,7 +305,11 @@ function Java() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -280,6 +322,7 @@ function Java() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -287,6 +330,11 @@ function Java() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -336,7 +384,11 @@ function Java() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -364,29 +416,39 @@ function Java() {
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
 <<<<<<< HEAD
+<<<<<<< HEAD
           Java Full Stack
           </span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
 
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
             Java Full Stack Developer
           </span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
                   src={tool.img}
                   alt={tool.name}
                   className="tool-logo mb-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
@@ -398,14 +460,21 @@ function Java() {
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
               </div>
             </div>
           ))}
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       {/* ================= ROADMAP + FORM ================= */}
@@ -498,7 +567,11 @@ function Java() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

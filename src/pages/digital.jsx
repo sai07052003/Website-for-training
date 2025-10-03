@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState ,useRef} from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -30,7 +34,10 @@ const tools = [
     name: "Google Analytics",
     img: "https://www.vectorlogo.zone/logos/google_analytics/google_analytics-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A web analytics tool\nused to track website traffic\nand user behavior.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -38,7 +45,10 @@ const tools = [
     name: "Google Ads",
     img: "https://www.vectorlogo.zone/logos/google_ads/google_ads-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An online advertising platform\nfor creating and managing\nsearch and display ads.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -46,7 +56,10 @@ const tools = [
     name: "Facebook Ads",
     img: "https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A social media advertising platform\nused to target audiences\non Facebook.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -54,7 +67,10 @@ const tools = [
     name: "Instagram",
     img: "https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A social media platform\nfor sharing photos, videos,\nand engaging with audiences.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -62,7 +78,10 @@ const tools = [
     name: "LinkedIn Ads",
     img: "https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A professional network advertising tool\nused to target audiences\non LinkedIn.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -70,7 +89,10 @@ const tools = [
     name: "Twitter (X) Ads",
     img: "https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A platform for promoting content\nand reaching audiences\nvia paid campaigns on X.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -78,7 +100,10 @@ const tools = [
     name: "Canva",
     img: "https://www.vectorlogo.zone/logos/canva/canva-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A graphic design tool\nfor creating visuals,\nsocial media posts, and marketing content.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -86,7 +111,10 @@ const tools = [
     name: "Mailchimp",
     img: "https://www.vectorlogo.zone/logos/mailchimp/mailchimp-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An email marketing platform\nfor designing campaigns,\nsending newsletters, and tracking results.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -94,7 +122,10 @@ const tools = [
     name: "Hootsuite",
     img: "https://www.vectorlogo.zone/logos/hootsuite/hootsuite-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A social media management tool\nfor scheduling posts,\nmonitoring engagement, and analytics.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -102,7 +133,10 @@ const tools = [
     name: "WordPress",
     img: "https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A content management system (CMS)\nfor building websites, blogs,\nand managing online content.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -151,7 +185,11 @@ function Digital() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -167,9 +205,12 @@ function Digital() {
     setSubscribeSubmitted(true);
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 
@@ -268,7 +309,11 @@ function Digital() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -281,6 +326,7 @@ function Digital() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
              <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -288,6 +334,11 @@ function Digital() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -337,7 +388,11 @@ function Digital() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -362,6 +417,7 @@ function Digital() {
 
       {/* ================= TOOLS COVERED ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
      <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -371,18 +427,26 @@ function Digital() {
         </h2>
 
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">Digital Marketing</span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
@@ -390,12 +454,17 @@ function Digital() {
                   alt={tool.name}
                   className="tool-logo mb-3"
 <<<<<<< HEAD
+<<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
@@ -495,8 +564,12 @@ function Digital() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section 
 ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0

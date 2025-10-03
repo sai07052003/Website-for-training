@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState,useRef } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 import { useState } from "react";
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -29,7 +33,10 @@ const tools = [
     name: "Git",
     img: "https://images.assets-landingi.com/uc/37b05982-9ab4-4981-83e8-39f043c18937/GitLogo2Color.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A version control system\nthat tracks changes in code\nand enables team collaboration.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -37,7 +44,10 @@ const tools = [
     name: "Azure",
     img: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A cloud computing platform\nthat provides services for building,\ndeploying, and managing applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -45,7 +55,10 @@ const tools = [
     name: "Docker",
     img: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A platform for containerizing applications\nso they run consistently across\ndifferent environments.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -53,7 +66,10 @@ const tools = [
     name: "Kubernetes",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An open-source system for automating\ndeployment, scaling, and management\nof containerized applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -61,7 +77,10 @@ const tools = [
     name: "Jenkins",
     img: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An automation server\nused for continuous integration (CI)\nand continuous delivery (CD).",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -69,7 +88,10 @@ const tools = [
     name: "Ansible",
     img: "https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An open-source automation tool\nused for configuration management,\ndeployment, and orchestration.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -77,7 +99,10 @@ const tools = [
     name: "Terraform",
     img: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An infrastructure-as-code tool\nfor building, changing, and versioning\ncloud and on-prem resources.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -85,7 +110,10 @@ const tools = [
     name: "Prometheus",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "An open-source monitoring system\nused for collecting metrics\nand alerting on system performance.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -93,7 +121,10 @@ const tools = [
     name: "Grafana",
     img: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A visualization and analytics platform\nused to create interactive dashboards\nand monitor metrics.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -101,7 +132,10 @@ const tools = [
     name: "AWS",
     img: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
 <<<<<<< HEAD
+<<<<<<< HEAD
     desc: "A cloud platform offering computing,\nstorage, and a wide range of services\nfor scalable applications.",
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
   },
@@ -150,7 +184,11 @@ function Devops() {
   const [submitted, setSubmitted] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 <<<<<<< HEAD
+<<<<<<< HEAD
  const certificateRef = useRef(null); 
+=======
+
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -166,9 +204,12 @@ function Devops() {
     setSubscribeSubmitted(true);
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
  const scrollToCertificate = () => {
     certificateRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 
@@ -268,7 +309,11 @@ function Devops() {
               </li>
               <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FaCheckCircle className="text-success me-2" /> In Guntur
+=======
+                <FaCheckCircle className="text-success me-2" /> Branch in Guntur
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 <FaCheckCircle className="text-success me-2" /> Branch in Guntur
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -281,6 +326,7 @@ function Devops() {
                 </button>
               </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <button
                   className="btn btn-primary fw-bold"
                   onClick={scrollToCertificate}
@@ -288,6 +334,11 @@ function Devops() {
                   View Certificate <FaUserClock className="ms-2" />
                 </button>
 
+=======
+              <button className="btn btn-primary fw-bold">
+                View Certificate <FaUserClock className="ms-2" />
+              </button>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <button className="btn btn-primary fw-bold">
                 View Certificate <FaUserClock className="ms-2" />
@@ -337,7 +388,11 @@ function Devops() {
               <FaMapMarkerAlt className="stat-icon" />
               <p className="stat-value">Guntur</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <h5>Branch</h5>
+=======
+              <h5>Branches</h5>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
               <h5>Branches</h5>
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
@@ -362,6 +417,7 @@ function Devops() {
 
       {/* ================= TOOLS COVERED ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
      <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">
@@ -371,18 +427,26 @@ function Devops() {
         </h2>
 
 =======
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
       <div className="container my-5">
         <h2 className="tools-heading text-center mb-5">
           <span className="text-primary fw-bold">DevOps</span>{" "}
           <span className="fw-semibold">Tools Covered</span>
         </h2>
+<<<<<<< HEAD
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
+=======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
           {tools.map((tool, index) => (
             <div className="col" key={index}>
               <div className="tool-card shadow-sm h-100 d-flex flex-column align-items-center justify-content-center p-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {/* Image with tooltip */}
+=======
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
                 <img
@@ -390,12 +454,17 @@ function Devops() {
                   alt={tool.name}
                   className="tool-logo mb-3"
 <<<<<<< HEAD
+<<<<<<< HEAD
                   title={tool.desc} // 👈 Tooltip will appear on hover
                 />
                 {/* Name with tooltip */}
                 <h6 className="fw-semibold" title={tool.desc}>
                   {tool.name}
                 </h6>
+=======
+                />
+                <h6 className="fw-semibold">{tool.name}</h6>
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
                 />
                 <h6 className="fw-semibold">{tool.name}</h6>
@@ -495,8 +564,12 @@ function Devops() {
       </div>
       {/* ================= CERTIFICATE (Wall) ================= */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <section  
 ref={certificateRef} className="certificate-section container py-5">
+=======
+      <section className="certificate-section container py-5">
+>>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
 =======
       <section className="certificate-section container py-5">
 >>>>>>> 762d3f172821a7a0d285e9d16a721e172dbb77c0
